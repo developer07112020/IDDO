@@ -1,0 +1,77 @@
+@import url('../fonts/proxima-nova/stylesheet.css');
+@import url('../fonts/porxima-nova-thin/stylesheet.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fff;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+}
+/* Container */
+.container{
+    max-width: 1175px;
+    margin: 0 auto;
+}
+/* Top Nav */
+nav{
+    background: #000;
+    padding: 30px 0;
+}
+.nav__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__logo{
+    margin-right: auto;
+}
+.nav__logo a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav__menu{
+    display: flex;
+}
+.nav__list:not(:last-child){
+    margin-right: 39px;
+}
+.nav__link{
+    color: #ffffff;
+    font-size: 16px;
+    transition: color .2s ease-in;
+}
+.nav__link:hover{
+    color: #1cb88b;
+}
+.nav__btn{
+    margin-left: 485px;
+}
+.nav__sign{
+    display: inline-block;
+    border: 2px solid #1cb88b;
+    padding: 9px 18px 6px 19px;
+    border-radius: 9px;
+    color: #1cb88b;
+    font-size: 16px;
+    background: transparent;
+    transition: all .2s ease-in;
+}
+.nav__sign:hover{
+    color: #fff;
+    background: #1cb88b;
+}
