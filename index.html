@@ -50,7 +50,7 @@
     <!-- //Header -->
     
     <!-- Services -->
-    <section class="services">
+   <section class="services">
         <div class="container">
             <div class="services__content">
                 <div class="services__title">
@@ -179,6 +179,39 @@
     </section>
     <!-- //Works -->
     
+    <!-- Clients -->
+   <div class="clients">
+        <div class="clients__slider">
+            <div class="slider-for">
+                <div class="slider__text">
+                    “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiamvoluptatem.”
+                </div>
+                <div class="slider__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem omnis cum quo inventore alias esse totam commodi consectetur obcaecati, deserunt dignissimos.
+                </div>
+                <div class="slider__text">
+                    “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiamvoluptatem.”
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="clients__img">
+                    <img src="img/clients/client-img-1.jpg" alt="">
+                    <p>Jack Effron</p>
+                </div>
+                <div class="clients__img">
+                    <img src="img/clients/client-img-2.jpg" alt="">
+                    <p>Elon Musk</p>
+                </div>
+                <div class="clients__img">
+                    <img src="img/clients/client-img-3.jpg" alt="">
+                    <p>Anjelina Jolie</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Clients -->
+    
+    
     
     
     
@@ -196,5 +229,27 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/slick.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slider-nav',
+                autoplay: true
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 1,
+                centerPadding: 0,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: true,
+                arrows: false,
+                focusOnSelect: true
+            });
+            
+        });
+    </script>
 </body>
 </html>

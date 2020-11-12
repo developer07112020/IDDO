@@ -1,18 +1,27 @@
 @import url('../fonts/ProximaNova/stylesheet.css');
 
-*{
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-}
-a{
+a,
+a:hover{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+
 body{
     background: #fff;
     font-family: 'Proxima Nova Cn Rg';
@@ -22,6 +31,7 @@ body{
 .container{
     max-width: 1175px;
     margin: 0 auto;
+
 }
 /* Top Nav */
 nav{
@@ -46,9 +56,11 @@ nav{
 .nav__menu{
     display: flex;
 }
+
 .nav__list:not(:last-child){
     margin-right: 39px;
 }
+
 .nav__link{
     color: #ffffff;
     font-size: 16px;
@@ -137,7 +149,6 @@ header video{
 }
 .title{
     font-family: 'Proxima Nova Rg';
-    width: 370px;
     font-size: 72px;
     font-weight: 700;
     line-height: 60px;
@@ -149,6 +160,7 @@ header video{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 780px;
 }
 .services__feature{
     width: 355px;
@@ -216,6 +228,7 @@ header video{
     background: #1cb88b;
     color: #fff;
 }
+
 .works__nav .nav__sign:not(:last-child){
     margin-right: 10px;
 }
@@ -258,5 +271,61 @@ header video{
     font-weight: 400;
 }
 .load__more{
+    display: flex;
+}
+/* Clients */
+.clients{
+    padding: 60px 0 30px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.clients__slider{
+    max-width: 760px;
+    margin: 0 auto;
+}
+.slider__text{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    margin-bottom: 16px;
+}
+.slick-slide img{
     display: inline-block;
 }
+.clients__img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.clients__img p{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots .slick-active{
+    background: #fff;
+}
+.slick-dots li:not(:last-child){
+    margin-right: 10px;
+}
+.slick-dots button{
+    display: none;
+}
+
+
