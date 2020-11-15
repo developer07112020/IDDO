@@ -396,3 +396,38 @@ header video{
     line-height: 22px;
 }
 
+/* Statistics */
+.statistics{
+    background: #666666;
+    padding: 90px 0 80px;
+}
+.stat__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stat__item{
+    width: 25%;
+    text-align: center;
+}
+.stat__item img{
+    width: 62px;
+    height: 54px;
+    margin-bottom: 48px;
+}
+.stat__item h2{
+    font-family: 'Proxima Nova Cn Lt';
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+.stat__item p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+}
