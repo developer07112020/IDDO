@@ -431,3 +431,139 @@ header video{
     text-align: center;
     text-transform: uppercase;
 }
+
+/* Skills */
+.skills .works__title{
+    margin-bottom: 80px;
+}
+.skills__content{
+    display: flex;
+    justify-content: space-between;
+}
+.skills__item{
+    width: 770px;
+}
+.skills__rating{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.rating__item{
+    width: 170px;
+    height: 170px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating__item img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.rating__item p{
+    color: #1cb88b;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+ }
+ .skills__description{
+     padding-left: 100px;
+ }
+ .skills__title{   
+    color: #1cb88b;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+ }
+ .skills__text{
+    color: #363636;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+ }
+ .mb{
+     margin-bottom: 10px;
+ }
+ .accordion{
+     width: 370px;
+ }
+ .card-header{
+    width: 100%;
+    background: none;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ebebeb !important;
+    border-radius: 8px !important;
+    outline:hidden;
+ }
+ .accordion > .card > .card-header{
+    margin-bottom: 0;
+    position: relative;
+ }
+ .card{
+    border: none;
+ }
+ .card:not(:last-child){
+     margin-bottom: 10px;
+ }
+ .card-body{
+     padding: 20px;
+    color: #363636;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  
+ }
+ .card__header--items{
+     display: flex;
+     align-items: center;
+     
+ }
+ .card__header--items i{
+     font-size: 24px;
+     margin-right: 17px;
+ }
+ .card .fa-plus{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .2s ease-in;
+    font-size: 12px;
+}
+.btn{
+    line-height: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.btn:focus, .btn.focus{
+    box-shadow: none;
+    text-decoration: none;
+}
+.btn-link .collapse.plus{
+    display: none;
+} 
+.btn-link{
+    color: #898989;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    transition: color .2s ease-in;
+}
+.btn-link:hover
+{
+    text-decoration: none;
+    color: #1cb88b;
+}
+.card button{
+    width: 350px;
+    outline: none;
+}

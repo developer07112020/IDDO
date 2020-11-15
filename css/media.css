@@ -71,7 +71,25 @@
     .team__item:not(:last-child){
         margin-bottom: 30px;
     }
-  
+    .skills__content{
+        flex-direction: column;
+    }
+    .skills__item{
+        margin: 0 auto 30px;
+    }
+    .accordion{
+        margin: 0 auto;
+        width: 770px;
+    }
+    .card{
+        width: 100%;
+    }
+    .skills .works__title{
+        margin-bottom: 50px;
+    }
+    .skills__description{
+        padding-left: 0 !important;
+    }
 }
 @media (max-width:991.98px){
     
@@ -112,7 +130,23 @@
     .statistics{
         padding-bottom: 50px;
     }
+    .rating__item{
+        margin: 0 25px 25px;
+    }
+    .skills__rating{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skills__rating{
+        margin-bottom: 0;
+    }
+    .skills__item{
+        width: 600px;
+    }
     
+    .accordion{
+        width: 600px;
+    }
 }
 @media (max-width:767.98px){
     header{
@@ -153,6 +187,12 @@
     }
     section{
         padding: 30px 0;
+    }
+    .accordion{
+        width: 500px;
+    }
+    .skills__item{
+        width: 500px;
     }
 }
 @media (max-width:575.98px){
@@ -229,5 +269,20 @@
     .stat__item h2{
         font-size: 50px;
         line-height: 25px;
+    }
+    .accordion{
+        width: 290px;
+    }
+    .skills__item{
+        width: 290px;
+    }
+    .skills__rating{
+        display: none;
+    }
+    .skills .works__title{
+        margin-bottom: 10px;
+    }
+    .works__title .title{
+        margin-bottom: 0;
     }
 }
