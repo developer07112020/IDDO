@@ -285,4 +285,7 @@
     .works__title .title{
         margin-bottom: 0;
     }
+    .copyright{
+        padding: 20px 0;
+    }
 }

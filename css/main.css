@@ -567,3 +567,21 @@ header video{
     width: 350px;
     outline: none;
 }
+/* Copyright */
+.copyright{
+    background: #252525;
+    padding: 50px 0;
+    text-align: center;
+}
+.copyright h2{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.copyright p{
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
