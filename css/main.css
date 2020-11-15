@@ -31,7 +31,10 @@ body{
 .container{
     max-width: 1175px;
     margin: 0 auto;
-
+}
+/* Section */
+section{
+    padding: 100px 0 140px;
 }
 /* Top Nav */
 nav{
@@ -327,5 +330,8 @@ header video{
 .slick-dots button{
     display: none;
 }
-
+/* Team */
+.team__content{
+    margin-top: 50px;
+}
 
